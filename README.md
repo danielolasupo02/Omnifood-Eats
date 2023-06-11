@@ -50,7 +50,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - The design and inspiration for this project were obtained from various sources and modified to fit the requirements of OmnifoodEats.
 - Special thanks to the open-source community for the libraries and resources used in this project.
-
----
-
-Feel free to modify the README to match your project's specific implementation details and requirements.
