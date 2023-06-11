@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/favicon.png" type="image/icon type" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,43 +12,57 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Omnifood</title>
+    <title>Omnifood — Never cook again!</title>
   </head>
   <body>
-    <section class="section-hero">
-      <div class="hero">
-        <div class="hero-text">
-          <div class="hero-primary">
-            A healthy meal delivered to your door, every single day
-          </div>
-          <div class="hero-description">
-            The smart 365-days-per-year food subscription that will make you eat
-            healthy again. Tailored to your personal tastes and nutritional
-            needs. We have delivered 250,000+ meals last year!
-          </div>
-          <a href="#" class="btn btn--full margin-right-sm"
-            >Start eating well</a
-          >
-          <a href="#" class="btn btn--outline"> Learn more &darr;</a>
-          <div class="delivered-meals">
-            <div class="delivered-imgs">
-              <img src="img/customers/customer-1.jpg" alt="Customer Photo" />
-              <img src="img/customers/customer-2.jpg" alt="Customer Photo" />
-              <img src="img/customers/customer-3.jpg" alt="Customer Photo" />
-              <img src="img/customers/customer-4.jpg" alt="Customer Photo" />
-              <img src="img/customers/customer-5.jpg" alt="Customer Photo" />
-              <img src="img/customers/customer-6.jpg" alt="Customer Photo" />
+    <header class="header">
+      <img class="logo" src="img/omnifood-logo.png" alt="Omnifood Logo" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text">
+            <div class="heading-primary">
+              A healthy meal delivered to your door, every single day
             </div>
-            <p class="delivered-text">
-              <span class="delivered-text--data">250,000+</span> meals delivered
-              last year!
-            </p>
+            <div class="hero-description">
+              The smart 365-days-per-year food subscription that will make you
+              eat healthy again. Tailored to your personal tastes and
+              nutritional needs. We have delivered 250,000+ meals last year!
+            </div>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Start eating well</a
+            >
+            <a href="#" class="btn btn--outline"> Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer Photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer Photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer Photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer Photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer Photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer Photo" />
+              </div>
+              <p class="delivered-text">
+                <span class="delivered-text--data">250,000+</span> meals
+                delivered last year!
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img src="img/hero.png" alt="hero image" class="hero-img" />
           </div>
         </div>
-        <div class="hero-img-box">
-          <img src="img/hero.png" alt="hero image" class="hero-img" />
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
 </html>
