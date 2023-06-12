@@ -29,13 +29,25 @@ OmnifoodEats is a responsive food delivery web application that provides a seaml
 ```
 ├── index.html         # Main HTML file
 ├── css
-│   ├── styles.css     # CSS stylesheets
-│   └── ...
+│   ├── styles.css     # CSS stylesheet
+│   └── general.css    # Reusable CSS stylesheet
 ├── js
 │   ├── script.js      # JavaScript functionality
 │   └── ...
 ├── img                # Image assets
-└── ...
+│   ├── app
+│   └── customers
+│   ├── gallery
+│   └── logos
+│   ├── meals
+│   └── eating.png
+│   ├── favicon.png
+│   └── hero.png
+│   └── omnifood-logo.png
+│
+└── content.md
+│
+└── README.md
 ```
 
 ## Contributing
