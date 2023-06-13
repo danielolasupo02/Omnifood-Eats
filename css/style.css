@@ -21,7 +21,9 @@ Paragraph default: 1.6
 --- 02 COLORS 
 
 - Primary: #e67e22
-- Tints: #fdf2e9
+- Tints: 
+#fdf2e9
+#fae5d3
 - Shades: #cf711f
 - Accents:
 - Greys: #555
@@ -200,18 +202,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
-.step-img-box::before {
+.step-img-box::before,
+.step-img-box::after {
   content: "";
   display: block;
-  width: 60%;
+  border-radius: 50%;
   /* height: 100px; */
   background-color: #fdf2e9;
 
-  padding-bottom: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-  /*Pushes this to appear underneath the phone*/
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  z-index: -1;
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #fae5d3;
+  z-index: -1;
 }
 
 .step-img {
