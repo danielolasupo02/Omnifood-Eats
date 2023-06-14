@@ -212,7 +212,7 @@ body {
 }
 
 /*********************/
-/*HOW IT WORKS*/
+/*HOW IT WORKS SECTION*/
 /*********************/
 .section-how {
   padding: 9.6rem 0;
@@ -275,3 +275,32 @@ body {
   padding: 100px;
   font-size: 50px;
 } */
+
+/*********************/
+/*MEALS SECTION*/
+/*********************/
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style: none;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+}
+
+.meal img {
+  width: 100%;
+}

@@ -51,7 +51,7 @@ Kid-friendly
 
 **Omnifood AI chooses from 5,000+ recipes**
 
-Meal 1: Japanese Gyozas
+Meal 1:
 
 - Category: Vegetarian
 - Calories: 650
