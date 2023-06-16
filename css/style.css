@@ -24,15 +24,20 @@ Paragraph default: 1.6
 --- 02 COLORS 
 
 - Primary: #e67e22
+
 - Tints: 
 #fdf2e9
 #fae5d3
+#eb984e
+
 - Shades: #cf711f
 - Accents:
 - Greys: #555
 #333
 
 --- 05 SHADOWS
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); 
+ 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15)
 
 --- 06 BORDER-RADIUS
 Default: 9px
@@ -535,4 +540,35 @@ strong {
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/*********************/
+/*CTA SECTION*/
+/*********************/
+.section-cta {
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+  /*temp */
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 150, 76, 0.316),
+      rgba(230, 125, 34, 0.371)
+    ),
+    url(../img/eating.jpg);
+  background-size: cover;
 }
