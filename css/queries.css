@@ -23,3 +23,53 @@ CALCULATING FOR DESKTOP SCREEN SIZE
     grid-template-columns: 1fr 1fr;
   }
 }
+
+/* 
+CALCULATING FOR DESKTOP SCREEN SIZE
+1200px / 16px ==> 75em 
+*/
+
+/*********************/
+/*BELOW 1200px (Landscape Tablets)*/
+/*********************/
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px */
+    /*REDUCE THE FONT SIZE TO ADJUST TO LANDSCAPE TABLETS*/
+    font-size: 56.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .pricing-plan--complete::after {
+    top: 5%;
+    right: -28%;
+  }
+
+  .testimonial-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
