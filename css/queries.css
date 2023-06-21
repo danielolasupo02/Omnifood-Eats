@@ -270,4 +270,36 @@ CALCULATING FOR DESKTOP SCREEN SIZE
   .logos img {
     height: 1.2rem;
   }
+
+  /*Re-ordering the 1st phone*/
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  /*Re-ordering the 3rd phone*/
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .step-img-box {
+    transform: translateY(2.4rem);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-img-box {
+    height: 40rem;
+    grid-row: 1;
+  }
 }
