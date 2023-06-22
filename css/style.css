@@ -71,6 +71,8 @@ GRAY-COLOR43a40
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  /*Does not work on safari and  edge browser*/
+  scroll-behavior: smooth;
 }
 
 body {
@@ -141,6 +143,7 @@ body {
   background: none;
   cursor: pointer;
   display: none;
+  z-index: 9999;
 }
 
 .icon-mobile-nav {
